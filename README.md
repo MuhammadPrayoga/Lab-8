@@ -1,5 +1,4 @@
 # Lab-8
-# lab-8
 # OOP (Objek Oriented Programming)
 
 ## Profil
@@ -21,32 +20,27 @@
 
 # $${\color{red}PYTHON}$$
 
-![img](code1.png)
+![img](gambar/oop.png)
 
 - ##  Hasil Tampilan Program
 - Berikut adalah ketika program dijalankan
 
-![img](ss1.png)
 
-* Inputan Tambah Data (t)
+* Menambahkan Data
 
-![img](ss2.png)
+![img](gambar/tambah.png)
 
-![img](ss3.png)
-
-
-* Inputan Ubah Data (u)
-
-![img](ss.png)
-
-![img](Praktikum8/ss4.png)
+![img](gambar/tampil.png)
 
 
-* Inputan Hapus Data (h)
+* Mengubah Data
 
-![img](Praktikum8/ss5.png)
+![img](gambar/ubah.png)
 
-![img](Praktikum8/ss6.png)
+
+* Menghapus Data
+
+![img](gambar/hapus.png)
 
 
 ### Penjelasannya : 
@@ -69,7 +63,8 @@ Fungsi secara singkat yakni meringkas sebuah program yang berulang-ulang dengan 
 4. Menggunakan Perulangan while (while loop)
 while True:, dapat diartikan perulangan akan terus mengulang jika inputan benar dan masuk kedalam proses jika tidak maka perulangan berhenti atau lanjut ke proses selanjutnya. 
 variabel lanjut kita gunakan untuk menginput perintah yang akan kita proses lanjut=input(str('(L)ihat, (T)ambah, (U)bah, (H)apus, (K)eluar)), disini kita menggunakan statement if untuk memproses perintah yang di inginkan sesuai inputan pada variabel lanjut:
-    * if lanjut.lower() == 'l':
+    ```python
+     if lanjut.lower() == 'l':
 
         if data.items():
 
@@ -106,3 +101,4 @@ variabel lanjut kita gunakan untuk menginput perintah yang akan kita proses lanj
         else:
 
         salah()
+    ```
