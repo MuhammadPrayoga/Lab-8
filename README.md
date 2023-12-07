@@ -1,5 +1,5 @@
 # Lab-8
-# OOP (Objek Oriented Programming)
+## $${\color{red}OOP (Objek Oriented Programming)}$$
 
 ## Profil
 | Variable | Isi |
